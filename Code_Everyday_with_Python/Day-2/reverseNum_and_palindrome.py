@@ -1,0 +1,15 @@
+#To find the reverse of a Given number
+num = int(input("\n enter a number\n"))
+temp = num
+reverse = 0
+while num > 0:
+    remainder = num % 10
+    reverse = (reverse * 10)+remainder
+    num = num // 10
+    
+print(reverse)
+#to find a palindrome 
+if temp == reverse:
+    print("palindrome")
+else:
+    print("It is not a palindrome")

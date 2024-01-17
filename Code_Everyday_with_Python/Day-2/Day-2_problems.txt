@@ -1,0 +1,8 @@
+Day-2 of basic problems includes
+
+1. Finding the Armstrong 
+2. finding the fibonacciSeries
+3. Finding the factors
+4. finding power of a number
+5. solving a common pattern
+6. Reverseing a number and finding a palindrome
