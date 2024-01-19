@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visiting card</title>
+   <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
+</head>
+<body>
+  <div class="container">
+     <div class="straps">
+         
+     </div>
+      <div class="info-1">
+          <img id="profile" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100px" height="100px"></img>
+       <div class="info-2">
+            <h1>Sabanna</h1>
+          <h4>UI Designer</h4>
+          <img id="logo" src="https://www.freepnglogos.com/uploads/microsoft-logo-png-transparent-20.png" alt="" />
+       </div>  
+      </div>
+      
+  </div>
+    <script>
+        function redirectToPage2() {
+            // Add a class to the container to trigger the transition
+            document.querySelector('.container').classList.add('page2');
+            setTimeout(function() {
+                // Redirect after the animation is complete
+                window.location.href = 'page2.html';
+            }, 500); // Adjust the timeout to match the transition duration
+        }
+    </script>
+    <div class="button-container">
+        <a href="page2.html"><button type="submit">Flip it</button></a>
+    </div>
+
+</body>
+</html>
